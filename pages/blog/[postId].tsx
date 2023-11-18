@@ -5,7 +5,7 @@ import connectDBMongoose from "../../lib/dbConnect";
 
 import { Navbar } from '../../src/components/_section/navbar/navbar';
 import { Footer } from '../../src/components/_section/footer/footer';
-// import { ComponentBlogPost } from '../../src/components/_section/blog/ComponentBlogPost';
+import { ComponentBlogPost } from '../../src/components/_section/blog/ComponentBlogPost';
 export interface PostProps {
   _id: string;
   title: string;
@@ -32,7 +32,7 @@ const BlogPost: NextPage<PostProps> = (post) => {
     <>
       <Navbar />
       <h1 style={{ padding: '120px' }}>{post.title}</h1>
-      {/* <ComponentBlogPost post={post} /> */}
+      <ComponentBlogPost post={post} />
       <Footer />
     </>
   )
