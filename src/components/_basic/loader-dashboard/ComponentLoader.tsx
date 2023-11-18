@@ -1,6 +1,6 @@
 import styles from './ComponentLoader.module.scss';
 import Lottie from 'lottie-react';
-import animation from '../../../../../zdrowy-sukces/src/assets/lottie-files/loading-mashrooms.json';
+import animation from '../../../assets/lottie-files/loading-mashrooms.json';
 import { ComponentLoaderText } from './ComponentLoaderText';
 
 export const ComponentLoader = ({ createPost = false }: { createPost?: boolean }) => {
