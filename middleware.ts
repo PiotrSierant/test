@@ -4,7 +4,7 @@ export default withAuth({
     callbacks: {
         authorized({ req, token }) {
             if (/\/panel\/.*$/.test(req.nextUrl.pathname)) {
-                return token?.user.roles.includes("admin");
+                return token?.roles && Array.isArray(token.roles) ? token.roles.includes("admin") : false;
             }
             return !!token
         },
