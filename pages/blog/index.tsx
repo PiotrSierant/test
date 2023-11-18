@@ -9,7 +9,7 @@ import animation from "../../src/assets/lottie-files/blog-empty.json"
 import type { NextPage } from 'next';
 import { Footer } from '../../src/components/_section/footer/footer';
 import { Navbar } from '../../src/components/_section/navbar/navbar';
-// import { ComponentBlogList } from '../../src/components/_section/blog/ComponentBlogList';
+import { ComponentBlogList } from '../../src/components/_section/blog/ComponentBlogList';
 import { Layout } from "../../src/components/_section/layout/ComponentLayout"
 
 export interface Post {
@@ -117,7 +117,7 @@ const Blog: NextPage<PostsProps> = ({ posts }: PostsProps) => {
         {posts.map(post => (
             <li key={post._id}>{post.title}</li>
         ))}
-        {/* <ComponentBlogList posts={posts} /> */}
+        <ComponentBlogList posts={posts} />
         <Footer />
     </>
     )
