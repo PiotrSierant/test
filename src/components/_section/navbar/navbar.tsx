@@ -31,6 +31,10 @@ export const Navbar = () => {
         setCurrentUrl('/sklep');
         return
       }
+      if (relativePath.includes('/blog/')) {
+        setCurrentUrl('/blog');
+        return
+      }
       setCurrentUrl(relativePath);
     }
   }, [])
@@ -62,7 +66,7 @@ export const Navbar = () => {
   }, [SubMenuItemClick])
 
   useEffect(() => {
-    if (width > 820 && menuOpened) {
+    if (width > 890 && menuOpened) {
       menuButtonRef.current?.click();
       setSubMenuItemClick(true);
     }
@@ -128,7 +132,7 @@ export const Navbar = () => {
                         className={styles.link}
                       >
                         <p className={styles.link_content}>
-                          {width < 820 && <Image src={icon} width={25} height={25} alt={title} quality={100} />}
+                          {width < 890 && <Image src={icon} width={25} height={25} alt={title} quality={100} />}
                           {title}
                           <FontAwesomeIcon icon={faChevronDown} width={15} height={15} className={classNames(styles.icon, !SubMenuItemClick && styles.subIcon)} />
                         </p>
@@ -147,7 +151,7 @@ export const Navbar = () => {
                                   onClick={(evt) => onMenuItemClick(evt, false, href)}
                                 >
                                   <p>
-                                    {width < 820 && <FontAwesomeIcon icon={icon} width={15} height={15} />}
+                                    {width < 890 && <FontAwesomeIcon icon={icon} width={15} height={15} />}
                                     {title}
                                     {isNew && <ComponentBadge variant={'primary'} text={"Nowość"} />}
                                   </p>
@@ -169,7 +173,7 @@ export const Navbar = () => {
                       rel="noreferrer noopener"
                     >
                       <p className={styles.link_content}>
-                        {width < 820 && <Image src={icon} width={25} height={25} alt={title} quality={100} />}
+                        {width < 890 && <Image src={icon} width={25} height={25} alt={title} quality={100} />}
                         {title}
                       </p>
                     </Link>

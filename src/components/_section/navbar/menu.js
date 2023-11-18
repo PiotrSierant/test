@@ -7,6 +7,7 @@ import Contact from '../../../assets/menu/Contact.svg';
 import Us from '../../../assets/menu/Us.svg';
 import Cooperation from '../../../assets/menu/Cooperation.svg';
 import Shop from '../../../assets/menu/Shop.svg';
+import Blog from '../../../assets/menu/Blog.svg';
 
 export const logoData = {
     id: 1,
@@ -50,7 +51,7 @@ export const menu = [
         icon: Ebooks.src,
         title: "Ebook'i",
         href: '',
-        ariaLabel: 'Rozwijane menu.',
+        ariaLabel: 'Rozwijane menu z ebookami.',
         subMenu: [
             {
                 id: 6,
@@ -99,7 +100,7 @@ export const menu = [
         icon: Us.src,
         title: 'O nas',
         href: '/o-nas',
-        ariaLabel: 'Przejdź do sekcji "O nas".',
+        ariaLabel: 'Przejdź do strony "O nas".',
         subMenu: [],
     },
     {
@@ -111,11 +112,19 @@ export const menu = [
         subMenu: [],
     },
     {
+        id: 15,
+        icon: Blog.src,
+        title: 'Blog',
+        href: '/blog',
+        ariaLabel: 'Przejdź do bloga.',
+        subMenu: [],
+    },
+    {
         id: 12,
         icon: Shop.src,
         title: 'Sklep',
         href: '/sklep',
-        ariaLabel: 'Przejdź do sekcji "Sklep".',
+        ariaLabel: 'Przejdź do sklepu.',
         subMenu: [],
     },
 ]
