@@ -31,7 +31,6 @@ const BlogPost: NextPage<PostProps> = (post) => {
   return (
     <>
       <Navbar />
-      <h1 style={{ padding: '120px' }}>{post.title}</h1>
       <ComponentBlogPost post={post} />
       <Footer />
     </>
