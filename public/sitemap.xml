@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<!-- Strona główna -->
+<url>
+  <loc>https://zdrowy-sukces.pl/</loc>
+  <lastmod>2023-04-21T16:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>1</priority>
+</url>
+<!-- Strona e-book endo -->
+<url>
+  <loc>https://zdrowy-sukces.pl/endo-ebook</loc>
+  <lastmod>2023-04-21T16:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>1</priority>
+</url>
+<!-- Strona e-book z kanapkami -->
+<url>
+  <loc>https://zdrowy-sukces.pl/przeciwzapalne-kanapki-i-tosty</loc>
+  <lastmod>2023-05-02T115:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>1</priority>
+</url>
+
+<!-- Strona sklepu -->
+<url>
+  <loc>https://zdrowy-sukces.pl/sklep</loc>
+  <lastmod>2023-04-21T16:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>1</priority>
+</url>
+
+<!-- Strony produktu ze sklepu -->
+<url>
+  <loc>https://zdrowy-sukces.pl/pl/sklep/dieta-przeciwzapalna-endometrioza-or-bolesne-miesiaczki-1800-kcal-i-endo-ebook</loc>
+  <lastmod>2023-04-21T16:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+
+<url>
+  <loc>https://zdrowy-sukces.pl/pl/sklep/diety-przeciwzapalne-pcosor-ioor-plodnosc-2000-kcal</loc>
+  <lastmod>2023-04-21T16:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+
+<url>
+  <loc>https://zdrowy-sukces.pl/pl/sklep/skuteczna-dieta-przeciwzapalna-1600-kcal</loc>
+  <lastmod>2023-04-21T16:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+
+<url>
+  <loc>https://zdrowy-sukces.pl/pl/sklep/dieta-przeciwzapalna-endometrioza-or-bolesne-miesiaczki-2000-kcal-i-endo-ebook</loc>
+  <lastmod>2023-04-21T16:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+
+<url>
+  <loc>https://zdrowy-sukces.pl/pl/sklep/dieta-przeciwzapalna-pcos-or-io-or-plodnosc-2000-kcal</loc>
+  <lastmod>2023-04-21T16:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+
+<url>
+  <loc>https://zdrowy-sukces.pl/pl/sklep/dieta-przeciwzapalna-niedoczynnosc-tarczycy-or-hashimoto-2000-kcal</loc>
+  <lastmod>2023-04-21T16:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+
+<url>
+  <loc>https://zdrowy-sukces.pl/pl/sklep/dieta-przeciwzapalna-endometrioza-or-bolesne-miesiaczki-1800-kcal-i-endo-ebook-kopia-1</loc>
+  <lastmod>2023-04-21T16:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+
+<url>
+  <loc>https://zdrowy-sukces.pl/pl/sklep/dieta-przeciwzapalna-jesien-zima-pcosor-ioor-plodnosc-1800-kcal</loc>
+  <lastmod>2023-04-21T16:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+
+<url>
+  <loc>https://zdrowy-sukces.pl/pl/sklep/dieta-przeciwzapalna-endometrioza-or-bolesne-miesiaczki-2000-kcal</loc>
+  <lastmod>2023-04-21T16:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+
+<url>
+  <loc>https://zdrowy-sukces.pl/pl/sklep/dieta-przeciwzapalna-pcos-or-io-or-plodnosc-1600-kcal</loc>
+  <lastmod>2023-04-21T16:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+
+<url>
+  <loc>https://zdrowy-sukces.pl/pl/sklep/dieta-przeciwzapalna-endometrioza-or-bolesne-miesiaczki-i-pcosor-ioor-plodnosc-jesien-zima1800-kcal</loc>
+  <lastmod>2023-04-21T16:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+
+<url>
+  <loc>https://zdrowy-sukces.pl/pl/sklep/dieta-przeciwzapalna-jesien-zima-pcosor-ioor-plodnosc-1600-kcal</loc>
+  <lastmod>2023-04-21T16:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+
+<url>
+  <loc>https://zdrowy-sukces.pl/pl/sklep/dieta-przeciwzapalna-endometrioza-or-bolesne-miesiaczki-1600-kcal-i-endo-ebook</loc>
+  <lastmod>2023-04-21T16:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+
+<url>
+  <loc>https://zdrowy-sukces.pl/pl/sklep/dieta-przeciwzapalna-niedoczynnosc-tarczycy-or-hashimoto</loc>
+  <lastmod>2023-04-21T16:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+
+<url>
+  <loc>https://zdrowy-sukces.pl/pl/sklep/diety-przeciwzapalne-pcosor-ioor-plodnosc-1600-kcal</loc>
+  <lastmod>2023-04-21T16:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+
+<url>
+  <loc>https://zdrowy-sukces.pl/pl/sklep/dieta-przeciwzapalna-endometrioza-or-bolesne-miesiaczki-1800-kcal</loc>
+  <lastmod>2023-04-21T16:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+
+<url>
+  <loc>https://zdrowy-sukces.pl/pl/sklep/skuteczna-dieta-przeciwzapalna-1800-kcal</loc>
+  <lastmod>2023-04-21T16:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+
+<url>
+  <loc>https://zdrowy-sukces.pl/pl/sklep/dieta-przeciwzapalna-pcos-or-io-or-plodnosc-1800-kcal</loc>
+  <lastmod>2023-04-21T16:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+
+<url>
+  <loc>https://zdrowy-sukces.pl/pl/sklep/dieta-przeciwzapalna-niedoczynnosc-tarczycy-or-hashimoto-1800-kcal</loc>
+  <lastmod>2023-04-21T16:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+
+<url>
+  <loc>https://zdrowy-sukces.pl/pl/sklep/dieta-przeciwzapalna-endometrioza-or-bolesne-miesiaczki-i-pcosor-ioor-plodnosc-jesien-zima-2000-kcal</loc>
+  <lastmod>2023-04-21T16:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+
+<url>
+  <loc>https://zdrowy-sukces.pl/pl/sklep/dieta-przeciwzapalna-endometrioza-or-bolesne-miesiaczki</loc>
+  <lastmod>2023-04-21T16:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+
+<url>
+  <loc>https://zdrowy-sukces.pl/pl/sklep/endo-e-book</loc>
+  <lastmod>2023-04-21T16:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>1</priority>
+</url>
+
+<url>
+  <loc>https://zdrowy-sukces.pl/pl/sklep/dieta-przeciwzapalna-jesien-zima-pcosor-ioor-plodnosc-2000-kcal</loc>
+  <lastmod>2023-04-21T16:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+
+<url>
+  <loc>https://zdrowy-sukces.pl/pl/sklep/diety-przeciwzapalne-pcosor-ioor-plodnosc-1800-kcal</loc>
+  <lastmod>2023-04-21T16:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+
+<url>
+  <loc>https://zdrowy-sukces.pl/pl/sklep/dieta-przeciwzapalna-endometrioza-or-bolesne-miesiaczki-i-pcosor-ioor-plodnosc-jesien-zima1600-kcal</loc>
+  <lastmod>2023-04-21T16:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+
+<!-- Strona z polityką prywatności -->
+<url>
+  <loc>https://zdrowy-sukces.pl/polityka-prywatnosci</loc>
+  <lastmod>2023-02-18T08:23:45+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.5</priority>
+</url>
+
+<!-- Strona z regulaminem -->
+<url>
+  <loc>https://zdrowy-sukces.pl/regulamin</loc>
+  <lastmod>2023-04-21T16:00:00+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.5</priority>
+</url>
+
+</urlset>

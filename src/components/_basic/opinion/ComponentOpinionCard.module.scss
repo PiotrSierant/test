@@ -1,0 +1,68 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    max-width: 320px;
+
+    .author {
+        margin-top: 1.3rem;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        color: var(--secondary);
+    }
+
+    .stars {
+        display: flex;
+        gap: 0.125rem;
+        color: rgb(238, 203, 8);
+
+        svg {
+            height: .9rem;
+            width: .9rem;
+        }
+    }
+
+    .infos {
+        margin-top: 1rem;
+    }
+
+    .description {
+        margin-top: 0.4rem;
+        line-height: 1.625;
+        color: var(--text-color);
+        white-space: normal;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 7;
+        -webkit-box-orient: vertical;
+        max-width: 200ch;
+        text-align: left;
+        font-size: .8rem;
+    }
+
+    .readMore {
+        border: none;
+        background: transparent;
+        width: fit-content;
+        padding: 0;
+        margin: 0;
+        margin-left: auto;
+        color: var(--text-color-secondary);
+        transition: all .3s ease-in-out;
+        cursor: pointer;
+
+        &:hover {
+            color: var(--secondary)
+        }
+    }
+}
+
+
+@media screen and (min-width: 700px) {
+    .card {
+        .description {
+            font-size: .9rem;
+        }
+    }
+}

@@ -1,0 +1,140 @@
+.WhatYouLearn {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding-top: 5rem;
+
+    .WhatYouLearnWrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+
+        h2,
+        h4,
+        p {
+            margin: 0;
+            padding: 0;
+        }
+
+        h2,
+        h4 {
+            text-align: center;
+        }
+
+        h2 {
+            font-size: var(--heading-two-small);
+            margin-bottom: 2rem;
+        }
+
+        .listwrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+
+            ul {
+                width: 100%;
+                list-style-type: none;
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+
+                li {
+                    display: flex;
+                    align-items: flex-start;
+
+                    svg {
+                        width: 20px;
+                        margin-right: 7px;
+                        margin-top: 3px;
+                    }
+
+                    p {
+                        width: calc(100% - 30px);
+                        line-height: 1.4;
+                        font-size: var(--paragraph-small);
+                        text-align: justify;
+                    }
+
+                    .pink {
+                        color: var(--secondary);
+                    }
+                }
+            }
+        }
+
+        .description {
+            width: 100%;
+            background-image: var(--card-background);
+            margin-top: 3rem;
+            padding: 2rem 1rem;
+            border-radius: 1rem;
+            color: var(--whitesmoke);
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+
+            h4 {
+                font-size: var(--heading-four-small);
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .WhatYouLearn {
+        .WhatYouLearnWrapper {
+            gap: 2rem;
+
+            h2 {
+                font-size: var(--heading-two-small);
+            }
+
+            .listwrapper {
+                gap: 2rem;
+
+                ul {
+                    width: 47%;
+                    display: flex;
+                    justify-content: space-between;
+
+                    li {
+                        p {
+                            font-size: var(--paragraph-medium);
+                        }
+                    }
+                }
+            }
+
+            .description {
+                border-radius: 2rem;
+                padding: 3rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .WhatYouLearn {
+        .WhatYouLearnWrapper {
+            gap: 3rem;
+
+            h2 {
+                font-size: var(--heading-two-large);
+            }
+
+            .listwrapper {
+                ul {
+                    li {
+                        p {
+                            font-size: var(--paragraph-large);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

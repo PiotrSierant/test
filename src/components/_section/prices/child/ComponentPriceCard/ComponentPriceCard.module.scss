@@ -1,0 +1,78 @@
+.box {
+    background-color: var(--secondary-background-color);
+    padding: 1rem;
+    width: clamp(370px, 30%, 40ch);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    transition: 0.3s;
+    margin: 2rem 0;
+    border-radius: 5px;
+
+    &:hover {
+        box-shadow: var(--shadow-card);
+        transform: scale(1.05);
+    }
+
+
+    .price-card-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        height: 100%;
+
+        .title {
+            font-size: 1.5rem;
+            text-transform: uppercase;
+        }
+
+        .price {
+            font-size: 3rem;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .savings {
+            font-size: 0.7rem;
+            color: var(--secondary);
+        }
+
+        p {
+            margin: 5px auto;
+            width: fit-content;
+            padding: .2rem 1rem;
+            border-radius: .2rem;
+            transition: all .3s ease-in-out;
+        }
+    }
+
+    .price-card-content {
+        line-height: 1.7;
+        margin-bottom: 15px;
+
+        .description {
+            text-align: left;
+            padding: 0 10px;
+            color: var(--secondary-text-color);
+            list-style: none;
+
+            li::before {
+                content: "\2022";
+                color: var(--secondary);
+                font-weight: 300;
+                display: inline-block;
+                width: 1em;
+                margin-left: -1em;
+            }
+        }
+    }
+
+    .noStock {
+        padding-top: 3rem;
+    }
+
+    .description-item-bullet {
+        margin-left: 1rem;
+    }
+}

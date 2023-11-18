@@ -1,0 +1,70 @@
+.wrapper {
+    background-color: var(--background-color);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loading {
+    margin-top: -60px;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    text-align: center;
+
+    span {
+        display: inline-block;
+    }
+}
+
+.loadingAnimate {
+    span {
+        position: relative;
+        color: var(--text-color);
+        animation: loading08-parent 5s infinite;
+
+        &::after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            content: attr(data-text);
+            color: #fff;
+            opacity: 0;
+            animation: loading08-child 5s infinite;
+        }
+
+        @for $i from 1 through 9 {
+            &:nth-child(#{$i+1})::after {
+                animation-delay: #{$i*.2}s;
+            }
+        }
+    }
+}
+
+@keyframes loading08-parent {
+
+    0%,
+    35%,
+    100% {
+        color: rgba(#000, .5);
+    }
+
+    60%,
+    80% {
+        color: var(--menu-content);
+    }
+}
+
+@keyframes loading08-child {
+    0% {
+        opacity: 1;
+    }
+
+    25%,
+    100% {
+        opacity: 0;
+    }
+}

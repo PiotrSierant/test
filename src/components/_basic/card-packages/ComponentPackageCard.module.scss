@@ -1,0 +1,173 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: var(--secondary-background-color);
+    width: 320px;
+    max-width: 320px;
+    padding-top: 1rem;
+    margin: 1em;
+    text-align: center;
+    margin-inline: auto;
+    background-color: var(--secondary-background-color);
+    box-shadow: var(--shadow-card);
+    border: 1px solid transparent;
+    transition: border 0.3s ease-in-out;
+    cursor: pointer;
+
+
+    &:hover {
+        border: 1px solid var(--secondary);
+    }
+
+    .link {
+        width: 100%;
+        height: 230px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        position: relative;
+
+        img {
+            clip-path: polygon(0% 75%, 14% 81%, 29% 75%, 39% 81%, 53% 76%, 61% 81%, 70% 76%, 78% 81%, 85% 75%, 95% 82%, 100% 75%, 100% 0%, 0% 0%);
+            mix-blend-mode: var(--img-blend-mode);
+            object-fit: contain;
+            max-width: 175px;
+            // width: 100%;
+            // height: auto;
+        }
+
+        .overlay {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            bottom: 0;
+            width: 100%;
+            height: 50px;
+            transition: all .5s ease-in-out;
+            color: var(--whitesmoke);
+            text-align: center;
+
+            svg {
+                color: var(--secondary);
+            }
+
+            .cta {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                margin: auto;
+                padding: 12px 0;
+                transition: all 0.2s ease;
+                border: none;
+                background: none;
+                cursor: pointer;
+            }
+
+            .cta:before {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                display: block;
+                border-radius: 50px;
+                background: var(--secondary);
+                width: 45px;
+                height: 3px;
+                transition: all 0.3s ease;
+            }
+
+            .cta:hover:before {
+                width: 100%;
+                background: var(--secondary);
+                cursor: pointer;
+            }
+
+            .cta span {
+                position: relative;
+                font-family: "Ubuntu", sans-serif;
+                font-size: 18px;
+                font-weight: 700;
+                letter-spacing: 0.05em;
+                color: var(--text-color);
+            }
+
+            .cta svg {
+                position: relative;
+                top: 0;
+                margin-left: 10px;
+                fill: none;
+                stroke-linecap: round;
+                stroke-linejoin: round;
+                stroke: var(--text-color);
+                stroke-width: 2;
+                transform: translateX(-5px);
+                transition: all 0.3s ease;
+            }
+
+            .cta:hover svg {
+                stroke: var(--secondary);
+                transform: translateX(0);
+            }
+
+            .cta:active {
+                transform: scale(0.95);
+            }
+        }
+    }
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        position: relative;
+
+        .name {
+            font-size: 1rem;
+            font-weight: 500;
+            padding: 0 1rem 1rem;
+        }
+
+        p {
+            margin: 0;
+            padding: 0;
+            margin-top: .8rem;
+        }
+
+        a {
+            position: absolute;
+            top: -30px;
+            right: 20px;
+            animation: bounce 2s ease infinite;
+
+            svg {
+                transition: all .3s ease-in-out;
+            }
+
+            svg:hover {
+                color: var(--secondary);
+            }
+        }
+
+    }
+
+    .ctaSection {
+        padding: 0 .5rem;
+        margin-top: auto;
+
+    }
+
+    a {
+        margin-top: auto;
+        margin-bottom: 2rem;
+    }
+}

@@ -1,0 +1,121 @@
+.endoBuyIf {
+    padding: 5rem 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+
+    .endoBuyIfWrapper {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+
+        h3,
+        p {
+            margin: 0;
+            padding: 0;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        .listwrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 2rem;
+
+            .buy {
+                width: 100%;
+
+                h3 {
+                    font-size: var(--heading-two-small);
+                    margin-bottom: 2rem;
+                }
+
+                ul {
+                    width: 100%;
+                    list-style-type: none;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1rem;
+
+                    li {
+                        display: flex;
+                        align-items: flex-start;
+
+                        span {
+                            width: 20px;
+                            color: var(--secondary);
+                        }
+
+                        p {
+                            width: calc(100% - 30px);
+                            line-height: 1.4;
+                            font-size: var(--paragraph-small);
+                            text-align: justify;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 700px) {
+    .endoBuyIf {
+        .endoBuyIfWrapper {
+            gap: 2rem;
+
+            .listwrapper {
+                gap: 2rem;
+
+                .buy {
+                    width: 47%;
+
+                    h3 {
+                        font-size: var(--heading-two-small);
+                    }
+
+                    ul {
+
+                        li {
+                            p {
+                                font-size: var(--paragraph-medium);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .endoBuyIf {
+        .endoBuyIfWrapper {
+            gap: 3rem;
+
+            .listwrapper {
+                .buy {
+                    h3 {
+                        font-size: var(--heading-two-large);
+                    }
+
+                    ul {
+                        li {
+                            p {
+                                font-size: var(--paragraph-large);
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}

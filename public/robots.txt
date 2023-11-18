@@ -1,0 +1,4 @@
+Sitemap: https://zdrowy-sukces.pl/sitemap.xml
+User-agent: *
+Disallow: /account/login
+Disallow: /account/register

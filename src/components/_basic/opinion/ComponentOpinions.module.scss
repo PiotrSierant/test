@@ -1,0 +1,53 @@
+.options {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    position: relative;
+    padding: 2rem 0;
+
+    .optionsWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+
+        h2 {
+            font-size: var(--heading-two-small);
+            padding: 0;
+            text-align: center;
+            margin: 0;
+        }
+
+        .opinionSection {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .options {
+        .optionsWrapper {
+            h2 {
+                font-size: var(--heading-two-small);
+            }
+
+            .card {
+                .description {
+                    font-size: .9rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .options {
+        .optionsWrapper {
+            h2 {
+                font-size: var(--heading-two-large);
+            }
+        }
+    }
+}

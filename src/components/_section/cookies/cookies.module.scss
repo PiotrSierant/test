@@ -1,0 +1,114 @@
+.cookie_card {
+    max-width: 320px;
+    padding: 1rem;
+    background-color: var(--background-color);
+    border-radius: 10px;
+    box-shadow: var(--shadow-card);
+    position: fixed;
+    z-index: 1005;
+    right: 1rem;
+    bottom: 70px;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.title {
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.description {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: var(--secondary-text-color);
+}
+
+.description a {
+    --tw-text-opacity: 1;
+    color: var(--link);
+}
+
+.description a:hover {
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    -moz-column-gap: 1rem;
+    column-gap: 1rem;
+    flex-shrink: 0;
+}
+
+.pref {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: var(--secondary-text-color);
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
+    transition: all .3s cubic-bezier(0.4, 0, 0.2, 1);
+    border: none;
+    background-color: transparent;
+}
+
+.pref:hover {
+    color: var(--old-price-color);
+    cursor: pointer;
+}
+
+.pref:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+.accept {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    background-color: var(--secondary);
+    font-weight: 500;
+    border-radius: 0.5rem;
+    color: var(--white);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    border: none;
+    cursor: pointer;
+    transition: all .15s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.accept:hover {
+    background-color: #982c4c;
+}
+
+.accept:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+.collapseWrapper {
+    margin-top: 1rem;
+
+    small {
+        color: var(--secondary-text-color);
+    }
+}
+
+.collapse {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--text-color);
+
+    svg {
+        min-width: 16px;
+        fill: var(--text-color);
+
+    }
+}

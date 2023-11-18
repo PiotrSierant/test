@@ -1,0 +1,45 @@
+.badge {
+    margin: 5px auto;
+    width: -moz-fit-content;
+    width: fit-content;
+
+    p {
+        padding: 0.2rem 1rem;
+        border-radius: 0.2rem;
+        transition: all .3s ease-in-out;
+    }
+}
+
+.positionLine {
+    margin-top: 5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.noAvailabe {
+    background-color: #C82333;
+    color: whitesmoke;
+
+
+    &:hover {
+        background-color: #dc3545;
+    }
+}
+
+.available {
+    background-color: #218838;
+    color: whitesmoke;
+
+    &:hover {
+        background-color: #28a745;
+    }
+
+}
+
+.loaderWrapper {
+    position: relative;
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}

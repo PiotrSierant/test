@@ -1,0 +1,182 @@
+.newItem {
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        width: 200px;
+        height: 20px;
+        background-color: #4158D0;
+        background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+        top: 30px;
+        left: -50px;
+        rotate: 320deg;
+        z-index: 30;
+    }
+
+    &::after {
+        content: "Nowość!";
+        position: absolute;
+        rotate: 320deg;
+        top: 25px;
+        left: 22px;
+        color: var(--text-color);
+        z-index: 30;
+    }
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: var(--secondary-background-color);
+    width: 100%;
+    max-width: 330px;
+    padding: 1rem;
+    gap: .6rem;
+    transform: scale(1) !important;
+    transition: all .3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+
+    &:hover {
+        transform: scale(1.01) !important;
+        box-shadow: var(--shadow-card);
+    }
+
+    .link {
+        width: 100%;
+        height: 230px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        position: relative;
+
+        .overlay {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            bottom: 0;
+            width: 100%;
+            height: 50px;
+            transition: all .5s ease-in-out;
+            color: var(--whitesmoke);
+            text-align: center;
+
+            svg {
+                color: var(--secondary);
+            }
+
+            .cta {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                margin: auto;
+                padding: 12px 0;
+                transition: all 0.2s ease;
+                border: none;
+                background: none;
+                cursor: pointer;
+            }
+
+            .cta:before {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                display: block;
+                border-radius: 50px;
+                background: var(--secondary);
+                width: 45px;
+                height: 3px;
+                transition: all 0.3s ease;
+            }
+
+            .cta:hover:before {
+                width: 100%;
+                background: var(--secondary);
+                cursor: pointer;
+            }
+
+            .cta span {
+                position: relative;
+                font-family: "Ubuntu", sans-serif;
+                font-size: 18px;
+                font-weight: 700;
+                letter-spacing: 0.05em;
+                color: var(--text-color);
+            }
+
+            .cta svg {
+                position: relative;
+                top: 0;
+                margin-left: 10px;
+                fill: none;
+                stroke-linecap: round;
+                stroke-linejoin: round;
+                stroke: var(--text-color);
+                stroke-width: 2;
+                transform: translateX(-5px);
+                transition: all 0.3s ease;
+            }
+
+            .cta:hover svg {
+                stroke: var(--secondary);
+                transform: translateX(0);
+            }
+
+            .cta:active {
+                transform: scale(0.95);
+            }
+        }
+
+        img {
+            clip-path: polygon(0% 75%, 14% 81%, 29% 75%, 39% 81%, 53% 76%, 61% 81%, 70% 76%, 78% 81%, 85% 75%, 95% 82%, 100% 75%, 100% 0%, 0% 0%);
+            mix-blend-mode: var(--img-blend-mode);
+            max-width: 175px;
+            height: auto;
+            object-fit: contain;
+        }
+    }
+
+    h3 {
+        font-size: 1.1rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 0;
+        margin-bottom: .5rem;
+    }
+
+    p {
+        padding: 0;
+        margin: 0;
+        font-size: 1.1rem;
+    }
+
+    a {
+        margin-top: auto;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .section {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .section {
+        width: 100%;
+        max-width: 320px;
+    }
+}

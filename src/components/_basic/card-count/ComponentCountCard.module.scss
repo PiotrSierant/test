@@ -1,0 +1,52 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 1rem;
+    box-shadow: var(--shadow-contact);
+    min-width: 200px;
+    margin: 30px auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: 0.4s;
+    background-image: var(--card-background);
+
+
+    &:hover {
+        transform: scale(0.9, 0.9);
+    }
+
+    h3,
+    p {
+        margin: 0;
+        padding: 0;
+    }
+
+    svg {
+        height: 50px;
+    }
+
+    h3 {
+        font-size: var(--heading-three-small);
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .card {
+        h3 {
+            font-size: var(--heading-three-small);
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .card {
+        h3 {
+            font-size: var(--heading-three-large);
+        }
+    }
+}

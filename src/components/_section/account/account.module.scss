@@ -1,0 +1,201 @@
+.background {
+    background-color: var(--background-color);
+    width: 100%;
+    height: 100vh;
+
+    >section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    border-radius: .4rem;
+    width: 100%;
+    max-width: 350px;
+
+    .form_title {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        font-weight: 600;
+        text-align: center;
+        color: var(--text-color);
+        margin-bottom: 2rem;
+    }
+
+    .group {
+        position: relative;
+
+        label {
+            font-size: 14px;
+            color: rgb(99, 102, 102);
+            position: absolute;
+            top: -10px;
+            left: 10px;
+            background-color: var(--background-color);
+            transition: all .3s ease;
+        }
+
+        input,
+        textarea {
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid rgb(99, 102, 102);
+            margin-bottom: 15px;
+            outline: 0;
+            width: 100%;
+            background-color: transparent !important;
+            color: var(--text-color) !important;
+            font-size: 14px;
+
+            &::placeholder {
+                font-size: 14px;
+                padding: -1px;
+                margin: 0;
+                color: transparent;
+            }
+
+            &:placeholder-shown+label {
+                top: 10px;
+                background-color: transparent;
+            }
+
+            &:focus {
+                border-color: var(--secondary);
+
+                &+label {
+                    top: -10px;
+                    left: 10px;
+                    background-color: var(--background-color);
+                    color: var(--secondary);
+                    font-weight: 600;
+                    font-size: 14px;
+                }
+            }
+
+            &.invalid {
+                border: 2px solid red;
+                color: red;
+            }
+        }
+
+        textarea {
+            resize: none;
+            height: 100px;
+        }
+    }
+
+    button {
+        position: relative;
+        height: 40px;
+        width: 100%;
+        letter-spacing: 1px;
+        border-radius: 5px;
+        text-transform: uppercase;
+        outline: none;
+        cursor: pointer;
+        background: var(--background-color);
+        overflow: hidden;
+        transition: 0.6s;
+        color: var(--text-color);
+        border: 1px solid rgb(99, 102, 102);
+
+
+        &:disabled {
+            cursor: not-allowed;
+            opacity: .5;
+
+            &:hover {
+                color: #333;
+                background: rgba(#777, .8);
+            }
+        }
+    }
+
+    button:before,
+    button:after {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 0;
+        height: 100%;
+        filter: blur(30px);
+        opacity: 0.4;
+        transition: 0.6s;
+    }
+
+    button:before {
+        width: 60px;
+        background: rgba(255, 255, 255, 0.6);
+        transform: translateX(-130px) skewX(-45deg);
+    }
+
+    button:after {
+        width: 30px;
+        background: rgba(255, 255, 255, 0.6);
+        transform: translateX(-130px) skewX(-45deg);
+    }
+
+    button:hover:before,
+    button:hover:after {
+        opacity: 0.6;
+        transform: translateX(315px) skewX(-45deg);
+    }
+
+    button:hover {
+        color: #f2f2f2;
+        background: #be3760;
+        border: 1px solid #be3760;
+
+    }
+
+    .loadingButton {
+        div {
+            transform: translateY(6px);
+        }
+    }
+}
+
+.signup_link {
+    display: flex;
+    justify-content: center;
+    // justify-content: space-between;
+    gap: 1rem;
+    color: #6B7280;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    text-align: center;
+    margin-top: 15px;
+
+    a {
+        text-decoration: underline;
+    }
+}
+
+.error_msg,
+.success_msg {
+    border-radius: .4rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    text-align: center;
+    max-width: 350px;
+    width: 100%;
+}
+
+.error_msg {
+    color: #D8000C;
+    background-color: #FFBABA;
+}
+
+.success_msg {
+    color: #270;
+    background-color: #DFF2BF;
+}

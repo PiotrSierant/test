@@ -1,0 +1,45 @@
+.background {
+    background-color: var(--background-color);
+    padding-top: 80px;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.backgroundM {
+    background-color: var(--background-color);
+    padding-top: 90px;
+    text-align: center;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    h1,
+    p,
+    small {
+        padding: 1rem;
+        color: var(--text-color)
+    }
+
+    h1 {
+        font-size: var(--heading-one-small);
+    }
+
+    small {
+        font-size: var(--small-small);
+    }
+
+    p {
+        text-align: justify;
+        font-size: var(--paragraph-small);
+    }
+}
+
+.wrapper {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}

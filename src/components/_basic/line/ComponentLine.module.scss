@@ -1,0 +1,23 @@
+.svgLineSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 0 1rem;
+    width: 100%;
+    margin: 0 auto;
+    background-color: var(--background-color);
+    color: var(--text-color);
+
+    svg {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .svgLineSection {
+        svg {
+            width: 50%;
+        }
+    }
+}

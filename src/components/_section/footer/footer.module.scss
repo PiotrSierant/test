@@ -1,0 +1,37 @@
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    background-color: var(--background-color);
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 2rem;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.text {
+    color: var(--text-color);
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.privacy {
+    color: var(--text-color);
+    font-size: 0.8rem;
+    margin-top: 10px;
+    text-align: center;
+
+    a {
+        text-decoration: underline;
+
+    }
+}

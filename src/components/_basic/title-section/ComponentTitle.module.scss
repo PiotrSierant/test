@@ -1,0 +1,21 @@
+.titleWrapper {
+    width: 100%;
+    color: var(--title-text);
+
+    h2 {
+        font-size: 32px;
+        margin-bottom: .2rem;
+    }
+
+    hr {
+        background-color: var(--secondary);
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .titleWrapper {
+        h2 {
+            font-size: 48px;
+        }
+    }
+}
